@@ -2,10 +2,6 @@
 
 <div align="center">
 
-![EduSync Logo](https://via.placeholder.com/200x80?text=EduSync)
-![Status](https://img.shields.io/badge/Status-Planning-yellow)
-![License](https://img.shields.io/badge/License-MIT-blue)
-![Version](https://img.shields.io/badge/Version-0.1.0--alpha-orange)
 
 **Inteligentna platforma B2B SaaS do zarządzania działalnością edukacyjną**
 
@@ -36,7 +32,6 @@ Celem projektu jest wyeliminowanie chaosu organizacyjnego, z którym boryka się
 
 - 📅 **Inteligentny Kalendarz** — automatyczne planowanie zajęć, przypomnienia, obsługa stref czasowych
 - 👥 **Zarządzanie Uczniami** — kompletna baza danych uczniów z historią zajęć i postępami
-- 💳 **Billing i Fakturowanie** — automatyczne generowanie faktur, śledzenie płatności, integracja z płatnościami online
 - 📊 **Dashboard Analityczny** — wizualizacja przychodów, statystyki frekwencji, raporty efektywności
 - 🔔 **System Powiadomień** — automatyczne przypomnienia o lekcjach, terminach płatności i odwołaniach
 - 📱 **Aplikacja Mobilna** — dostęp do kalendarza i zarządzania z poziomu smartfona
@@ -63,43 +58,11 @@ Kompletna dokumentacja projektu znajduje się w folderze [`docs/`](docs/):
 |---------|-------------|
 | **Frontend** | React, TypeScript, Tailwind CSS, Vite |
 | **Backend** | Supabase (PostgreSQL, Auth, Edge Functions) |
-| **Płatności** | Stripe API |
 | **Infrastruktura** | Vercel, GitHub Actions |
 | **Dokumentacja** | Markdown, Mermaid.js |
 
 ---
 
-## 📦 Instalacja i Uruchomienie
-
-```bash
-# Klonowanie repozytorium
-git clone https://github.com/your-org/edusync.git
-cd edusync
-
-# Instalacja zależności
-npm install
-
-# Uruchomienie development server
-npm run dev
-```
-
-Więcej szczegółów w pliku [CONTRIBUTING.md](CONTRIBUTING.md).
-
----
-
-## 🤝 Współpraca
-
-Projekt jest rozwijany jako open-source. Zachęcamy do:
-
-- Zgłaszania błędów (issues)
-- Proponowania nowych funkcji (pull requests)
-- Dzielenia się sugestiami
-
----
-
-## 📄 Licencja
-
-Projekt dostępny na licencji **MIT**. Szczegówy w pliku [LICENSE](LICENSE).
 
 ---
 
