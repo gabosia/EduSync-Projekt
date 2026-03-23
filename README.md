@@ -1,9 +1,10 @@
-# EduSync — Platforma do Zarządzania Korepetytorami i Małymi Szkołami Językowymi
+# EduSync — Platforma dla Korepetytorów 
 
 <div align="center">
 
+**Prosta platforma SaaS do zarządzania działalnością edukacyjną i uczniami**
 
-**Inteligentna platforma B2B SaaS do zarządzania działalnością edukacyjną**
+*Projekt realizowany w ramach  Minimum Viable Product.*
 
 </div>
 
@@ -11,63 +12,56 @@
 
 ## 📋 Opis Projektu
 
-**EduSync** to nowoczesna, chmurowa platforma SaaS stworzona z myślą o korepetytorach indywidualnych oraz małych szkołach językowych. System integruje w sobie zarządzanie kalendarzem, billingiem, bazą uczniów oraz komunikacją — wszystko w jednym, intuicyjnym interfejsie.
+**EduSync** to chmurowa platforma stworzona z myślą o korepetytorach indywidualnych. System pozwala przenieść zarządzanie uczniami i kalendarzem ze skomplikowanych arkuszy Excela do jednego, intuicyjnego interfejsu webowego.
 
-Celem projektu jest wyeliminowanie chaosu organizacyjnego, z którym boryka się większość prowadzących zajęcia edukacyjne: rozproszone notatki w Excelu, nieopłacone faktury, zapomniane odwołane lekcje i brak historii płatności.
-
----
-
-## 🎯 Dla Kogo Jest EduSync?
-
-| Grupa Docelowa | Opis |
-|----------------|------|
-| **Korepetytorzy indywidualni** | Nauczyciele prowadzący jednoosobową działalność gospodarczą |
-| **Małe szkoły językowe** | Placówki z zespołem 2-10 nauczycieli |
-| **Trenerzy i coachowie** | Osoby prowadzące szkolenia w modelu 1:1 lub małych grupach |
-| **Lektorzy akademiccy** | Nauczyciele akademiccy prowadzący dodatkowe zajęcia prywatne |
+Obecna wersja aplikacji skupia się na dostarczeniu absolutnych fundamentów (MVP), pozwalających na weryfikację pomysłu rynkowego w krótkim czasie. Zaawansowane funkcje, takie jak fakturowanie czy powiadomienia SMS, zostały zaplanowane na kolejne fazy rozwoju.
 
 ---
 
-## 🚀 Kluczowe Funkcje
+## 🎯 Dla Kogo Jest EduSync (w fazie MVP)?
 
-- 📅 **Inteligentny Kalendarz** — automatyczne planowanie zajęć, przypomnienia, obsługa stref czasowych
-- 👥 **Zarządzanie Uczniami** — kompletna baza danych uczniów z historią zajęć i postępami
-- 📊 **Dashboard Analityczny** — wizualizacja przychodów, statystyki frekwencji, raporty efektywności
-- 🔔 **System Powiadomień** — automatyczne przypomnienia o lekcjach, terminach płatności i odwołaniach
-- 📱 **Aplikacja Mobilna** — dostęp do kalendarza i zarządzania z poziomu smartfona
-- 🔐 **Bezpieczeństwo** — szyfrowanie danych, zgodność z RODO, kopie zapasowe
+* **Korepetytorzy indywidualni** — Nauczyciele i studenci udzielający prywatnych lekcji, którzy potrzebują prostego narzędzia do ogarnięcia swojego grafiku i bazy uczniów.
+
+---
+
+## 🚀 Kluczowe Funkcje (Zrealizowane w 20h)
+
+- 🔐 **Autoryzacja** — bezpieczne logowanie i rejestracja użytkownika oparte na chmurze.
+- 👥 **Baza Uczniów (Mini-CRM)** — możliwość dodawania, przeglądania i usuwania uczniów ze swojej bazy.
+- 📅 **Harmonogram Zajęć** — proste planowanie lekcji i przypisywanie do nich konkretnych uczniów.
+
+*(Note: Funkcje takie jak aplikacja mobilna, płatności online czy automatyczne powiadomienia są zdefiniowane w dokumentacji jako cele długoterminowe, poza zakresem obecnego MVP).*
 
 ---
 
 ## 📚 Dokumentacja Projektu
 
-Kompletna dokumentacja projektu znajduje się w folderze [`docs/`](docs/):
+Pełna dokumentacja analityczna i techniczna znajduje się w folderze [`docs/`](docs/):
 
 | Plik | Opis |
 |------|------|
-| [`docs/1_Zalozenia_Biznesowe.md`](docs/1_Zalozenia_Biznesowe.md) | Szczegółowa analiza problemu biznesowego i proponowane rozwiązanie |
-| [`docs/2_Kill_The_Idea.md`](docs/2_Kill_The_Idea.md) | Krytyczna analiza projektu — zagrożenia i mitygacje |
-| [`docs/3_User_Stories.md`](docs/3_User_Stories.md) | Historyjki użytkowników (User Stories) |
-| [`docs/4_Architektura_i_Technologie.md`](docs/4_Architektura_i_Technologie.md) | Architektura systemu, technologie i diagramy |
+| [`docs/1_Zalozenia_Biznesowe.md`](docs/1_Zalozenia_Biznesowe.md) | Analiza problemu, rynku i ograniczeń wersji MVP. |
+| [`docs/2_Kill_The_Idea.md`](docs/2_Kill_The_Idea.md) | Krytyczna ocena projektu (Pre-mortem) i mitygacja ryzyk. |
+| [`docs/3_User_Stories.md`](docs/3_User_Stories.md) | Historyjki użytkowników ograniczone do 17 Story Points. |
+| [`docs/4_Architektura_i_Technologie.md`](docs/4_Architektura_i_Technologie.md) | Wykorzystany stos technologiczny (Frontend & BaaS). |
 
 ---
 
 ## 🛠 Tech Stack
 
+Projekt został zbudowany z wykorzystaniem nowoczesnych narzędzi, pozwalających na maksymalne przyspieszenie pracy (Rapid Development):
+
 | Warstwa | Technologie |
 |---------|-------------|
-| **Frontend** | React, TypeScript, Tailwind CSS, Vite |
-| **Backend** | Supabase (PostgreSQL, Auth, Edge Functions) |
-| **Infrastruktura** | Vercel, GitHub Actions |
-| **Dokumentacja** | Markdown, Mermaid.js |
-
----
-
+| **Frontend** | React, TypeScript, Vite |
+| **Styling & UI**| Tailwind CSS, Shadcn UI (gotowe, dostępne komponenty) |
+| **Backend & Baza** | Supabase (PostgreSQL, Auth) |
+| **Hosting** | Vercel (Planowane) |
 
 ---
 
 <div align="center">
 
-**EduSync** — *Zorganizuj swoją pasję do nauczania*
+**EduSync** — *Zorganizuj swoją pasję do nauczania bez zbędnego chaosu*
 
 </div>
