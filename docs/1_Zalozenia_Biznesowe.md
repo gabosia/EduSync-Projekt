@@ -55,7 +55,6 @@ Najbardziej rozpowszechnionym narzędziem do zarządzania korepetycjami jest... 
 
 - Listę uczniów z danymi kontaktowymi
 - Harmonogram zajęć
-- Historię płatności
 - Notatki z postępów uczniów
 - Materiały dydaktyczne
 - Terminy egzaminów i certyfikacji
@@ -85,25 +84,11 @@ Brak systemowego podejścia do odwołań powoduje:
 - **Niejasne zasady** — kiedy zajęcia można odwołać bez konsekwencji?
 - **Brak historii** — ile razy dany uczeń odwołał zajęcia?
 - **Brak automatycznego przepisywania** — czy zaległe zajęcia zostały przeniesione?
-- **Problemy z rozliczeniem** — jak rozliczyć odwołane zajęcia w pakiecie?
+  
 
-#### 1.2.3. Nieopłacone Faktury i Problem Cash Flow
+- **Brak śledzenia terminów** — 
 
-Fakturowanie wśród korepetytorów to często chaos:
-
-- **Brak systematyczności** — faktury wystawiane nieregularnie, "kiedy przyjdzie do głowy"
-- **Ręczne wystawianie** — każda faktura to nowy dokument, często w Wordzie lub darmowych generatorach
-- **Brak śledzenia terminów** — kiedy mija termin płatności? Czy faktura została uregulowana?
-- **Nieprzewidywalność przychodów** — korepetytor nie wie, ile faktycznie zarobił w danym miesiącu
-- **Zapomniane zaległości** — uczniowie, którzy "zapomnieli" zapłacić za kilka ostatnich zajęć
-
-Konsekwencje finansowe są dotkliwe:
-
-- Szacuje się, że **20-30% wystawionych faktur** w sektorze korepetycji jest opóźnionych lub nieuregulowanych
-- Brak terminowych płatności wpływa na płynność finansową korepetytora
-- Prowinding (windykacja) nieformalnych należności jest kłopotliwy i nadszarpuje relacje z klientem
-
-#### 1.2.4. Komunikacja przez Wiele Kanałów
+#### 1.2.3. Komunikacja przez Wiele Kanałów
 
 Współcześni korepetytorzy komunikują się z uczniami przez wiele kanałów:
 
@@ -121,7 +106,7 @@ Rezultat:
 - **Nieformalność** — ustalenia ustne lub pisemne nie mają formy oficjalnej
 - **Przeoczenia** — łatwo przeoczyć wiadomość w natłoku kanałów
 
-#### 1.2.5. Brak Analizy i Statystyk
+#### 1.2.4. Brak Analizy i Statystyk
 
 Bez odpowiednich narzędzi korepetytor nie jest w stanie odpowiedzieć na podstawowe pytania biznesowe:
 
