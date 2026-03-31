@@ -4,7 +4,6 @@
 
 **Prosta platforma SaaS do zarządzania działalnością edukacyjną i uczniami**
 
-*Projekt realizowany w ramach  Minimum Viable Product.*
 
 </div>
 
